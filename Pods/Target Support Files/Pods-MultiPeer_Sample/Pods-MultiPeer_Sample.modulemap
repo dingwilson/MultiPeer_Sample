@@ -1,0 +1,6 @@
+framework module Pods_MultiPeer_Sample {
+  umbrella header "Pods-MultiPeer_Sample-umbrella.h"
+
+  export *
+  module * { export * }
+}
