@@ -53,6 +53,15 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didPressSendButton(_ sender: Any) {
+        // Advertising/Browsing while sending data in MultiPeerConnectivity causes disconnects
+        // see here: https://stackoverflow.com/questions/22720247/multipeer-connectivity-random-disconnects
+        // Device will stop advertising/browsing until after MultiPeer has sent data
+        MultiPeer.instance.stopSearching()
+        
+        defer {
+            MultiPeer.instance.autoConnect()
+        }
+        
         if let message = textField.text {
             MultiPeer.instance.send(object: message, type: DataType.message.rawValue)
         }
