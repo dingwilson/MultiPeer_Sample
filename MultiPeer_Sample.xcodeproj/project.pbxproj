@@ -122,6 +122,7 @@
 				TargetAttributes = {
 					C8540F9720616EA100F75258 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -164,7 +165,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MultiPeer_Sample/Pods-MultiPeer_Sample-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MultiPeer_Sample/Pods-MultiPeer_Sample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MultiPeer/MultiPeer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -173,7 +174,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultiPeer_Sample/Pods-MultiPeer_Sample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiPeer_Sample/Pods-MultiPeer_Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		35B2581C4C8F794EDE1C1DE0 /* [CP] Check Pods Manifest.lock */ = {
@@ -346,13 +347,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z88HQX98VL;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MultiPeer_Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wilsonding.MultiPeer-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -364,13 +365,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z88HQX98VL;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MultiPeer_Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wilsonding.MultiPeer-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

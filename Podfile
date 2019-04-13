@@ -3,6 +3,6 @@
 target 'MultiPeer_Sample' do
   use_frameworks!
 
-  pod 'MultiPeer', '0.0.8'
+  pod 'MultiPeer', '0.1.0'
 
 end
